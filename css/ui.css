@@ -1,0 +1,769 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-06 10:57:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-07 08:41:57
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+/* 导航开始 */
+	.header{
+		width: 100%;
+		height: 0.89rem;
+		background-color: #007be3;
+		position: fixed;
+		top: 0;
+		z-index: 100;
+		display: flex;
+	}
+	.header>div{
+		width: 20%;
+		height: 100%;
+		/* text-align: center;
+		line-height: 100%;
+		font-size: 0.12rem; */
+	}
+	.header div a{
+		text-align: center;
+		font-size: 0.32rem;
+		display: block;
+	    line-height: 0.89rem;
+	    color: #fff;
+	}
+/* 导航结束 */
+/* banner开始 */
+	.banner{
+		position: relative;
+	    width: 100%;
+	    height: 5rem;
+	    background: url(../img/uibanner.png) center center no-repeat;
+	    background-size: 100%;
+	    overflow: hidden;
+	}
+	.banner img{
+		width: 100%;
+		position: absolute;
+		top: 0.89rem;
+	    height: 4.14rem;
+	}
+/* banner结束 */
+/* ui0开始 */
+	.ui{
+		width: 100%;
+		overflow: hidden;
+	    position: relative;
+	}
+	.ui .ui1con{
+		width: 7.02rem;
+	    height: 100%;
+	    margin: 0 auto;
+	}
+	.ui .ui1con .ui1con-1{
+		width: 100%;
+	    height: 0.9rem;
+	    margin: 0.4rem auto;
+	}
+	.ui1con-1 h2{
+		width: 100%;
+	    height: 0.4rem;
+	    text-align: center;
+	    line-height: 0.4rem;
+	    font-size: 0.36rem;
+	    color: #333;
+	}
+	.ui1con-1 h2 span{
+		font-weight: 400;
+	}
+	.ui1con-1 .xian{
+		width: 2.7rem;
+	    height: 0.1rem;
+	    margin: 0 auto;
+	    position: relative;
+	    background: url(../img/ui1lines.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-1>h2:last-child{
+		font-size: 0.3rem;
+    	line-height: 0.3rem;
+	}
+	.ui .ui1con .ui1con-2{
+		width: 6.8rem;
+	    height: 5.4rem;
+	    margin: 0.2rem auto;
+	}
+	.ui .ui1con .ui1con-2 .ui1conflex{
+		width: 100%;
+	    height: 100%;
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.ui1con-2 .ui1conflex>div{
+		width: 2.1rem;
+	    height: 2.5rem;
+	    margin-right: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(3){
+		margin-right: 0;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(6){
+		margin-right: 0;
+		margin-top: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(4){
+		margin-top: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(5){
+		margin-top: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex div .ui1title1{
+		width: 2.1rem;
+	    height: 1.1rem;
+	    background: url(../img/1.png) center center no-repeat;
+	    background-size: 100%;
+	    color: #fff;
+	    font-size: 0.28rem;
+	    line-height: 1.1rem;
+	    font-weight: 600;
+	    padding-left: 0.8rem;
+	}
+	.ui1con-2 .ui1conflex div .ui1title2{
+	    background: url(../img/2.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title3{
+	    background: url(../img/3.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title4{
+	    background: url(../img/4.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title5{
+	    background: url(../img/5.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title6{
+	    background: url(../img/6.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div p{
+		width: 2.1rem;
+	    height: 1.4rem;
+	    color: #333;
+	    font-size: 0.26rem;
+	    line-height: 0.32rem;
+	    text-align: center;
+	    padding-top: 0.2rem;
+	    border: 1px dashed #f2a111;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(2) p{
+		border: 1px dashed #2f90da;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(3) p{
+		border: 1px dashed #f87844;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(4) p{
+		border: 1px dashed #1bbf99;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(5) p{
+		border: 1px dashed #f8ce68;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(6) p{
+		border: 1px dashed #c16bbb;
+	}
+/* ui0结束 */
+/* ui1开始 */
+	.ui1 {
+	    height: 7.6rem;
+	    overflow: hidden;
+	}
+	.ui1 .ui2con{
+		width: 100%;
+	    height: 1.3rem;
+	    margin: 0 auto;
+	    padding: 0.4rem 0;
+	    background: url(../img/uititle1.png) center center no-repeat;
+	    background-size: 100%;
+	    position: relative;
+	    z-index: 20;
+	}
+	.ui2con h2{
+		color: #fff;
+	}
+	.ui2con .xian{
+		background: url(../img/ui2lines.png) center center no-repeat;
+	    background-size: 100%;
+	    width: 2.7rem;
+	    height: 0.1rem;
+	    margin: 0 auto;
+	    position: relative;
+	}
+	.ui1 .ui1con{
+		margin-top: 0.5rem
+	}
+	.ui1 .ui1con .ui1cont{
+		width: 7.02rem;
+	    height: 3.15rem;
+	    border: 1px dashed #030000;
+	    background: #f5f5f5;
+	    margin: 0 auto;
+	    overflow: hidden;
+	}
+	.ui1cont>p:first-child{
+		margin-bottom: 0.1rem;
+	}
+	.ui1cont p{
+		width: 100%;
+		height: auto;
+		text-align: center;
+		line-height: 0.36rem;
+		color: #333;
+		font-size: 0.26rem;
+		margin-top: 0.1rem;
+	}
+	.ui1cont p span{
+		color: #00a8ff;
+		font-weight: 600;
+	}
+	.ui1B{
+		width: 100%;
+	    height: 3.74rem;
+	    background: url(../img/ui11s.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1zhe{
+		width: 7.02rem;
+		margin: 0 auto;
+		background-color: #f5f6fa;
+		position: absolute;
+		left: 0.24rem;
+		bottom: 0;
+	}
+/* ui1结束 */
+/* ui2开始 */
+	.ui2{
+		margin-top: -0.26rem;
+	    height: 13.7rem;
+	}
+	.ui3con{
+		width: 100%;
+	    height: 1.3rem;
+	    margin: 0 auto;
+	    padding: 0.4rem 0;
+	    background: url(../img/uititle2.png) center center no-repeat;
+	    background-size: 100%;
+	    position: relative;
+	    z-index: 20;
+	}
+	.ui3con h2{
+		color: #fff;
+	}
+	.ui3con .xian{
+		background: url(../img/ui2lines.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui2 .ui2box{
+		width: 100%;
+	    height: 12.4rem;
+	    background: #1b1d32;
+	    margin-top: -0.4rem;
+	    padding-top: 0.4rem;
+	}
+	.ui2 .ui2box .ui2bt{
+		width: 2.46rem;
+	    height: 0.8rem;
+	    margin: 0 auto;
+	    padding: 0.2rem;
+	    text-align: center;
+	    line-height: 0.4rem;
+	    font-size: 0.3rem;
+	    border-bottom: 1px dashed #fff;
+	    position: relative;
+	    color: #f5f5f5;
+	}
+	.ui2box .ui2bt .ui2tiao{
+		width: 100%;
+	    height: 1px;
+	    background: #fff;
+	    position: absolute;
+	    left: 0;
+	    bottom: 0.1rem;
+	}
+	.ui2box .ui2bt .ui2zhe{
+		width: 100%;
+	    height: 0.82rem;
+	    position: absolute;
+	    left: 0;
+	    bottom: 0;
+	    background: #1b1d32;
+	}
+	.ui2bfb{
+		width: 7.02rem;
+	    height: 4.17rem;
+	    margin: 0 auto;
+	    background: url(../img/bfb.png) center center no-repeat;
+	    background-size: 100%;
+	    margin-top: 0.25rem;
+	    position: relative;
+	}
+	.ui2bfb div{
+		height: 0.32rem;
+		position: absolute;
+		left: 1.1rem;
+	}
+	.bfb1{
+		top: 0.48rem;
+		background-color: #fff100;
+	}
+	.bfb2{
+		top: 1.1rem;
+		background-color: #1dffbd;
+	}
+	.bfb3{
+		top: 1.71rem;
+		background-color: #0c51ff;
+	}
+	.bfb4{
+		top: 2.30rem;
+		background-color: #00a8ff;
+	}
+	.bfb5{
+		top: 2.96rem;
+		background-color: #1befe8;
+	}
+	.pjxx{
+		width: 7.02rem;
+	    height: 4.8rem;
+	    overflow: hidden;
+	    margin: 0 auto;
+	    margin-top: 0.3rem;
+	    position: relative;
+	    display: flex;
+	}
+	.pjxx>div{
+		width: 3.41rem;
+	    height: 4.8rem;
+	    overflow: hidden;
+	    margin: 0 auto;
+	}
+	.pjxx div>div{
+		padding-top: 0.14rem;
+	    width: 3.41rem;
+	    height: 2.21rem;
+	    overflow: hidden;
+	    background: url(../img/ui2back.png) center center no-repeat;
+	    background-size: 100%;
+	    margin-top: 0.19rem;
+	}
+	.pjxx p{
+		font-size: 0.24rem;
+	    line-height: 0.4rem;
+	    text-align: center;
+	    color: #fff;
+	    width: 100%;
+	    height: 1.67rem;
+	    overflow: hidden;
+	}
+	.pjxx span{
+		display: block;
+	    width: 100%;
+	    font-size: 0.3rem;
+	    line-height: 0.4rem;
+	    text-align: center;
+	    color: #fff;
+	}
+	.btn{
+		display: block;
+		width: 2.99rem;
+		height: 0.8rem;
+		margin: 0.4rem auto;
+		background: url(../img/btn.png) center center no-repeat;
+		background-size: 100%;
+		color: #fff;
+	    text-align: center;
+	    line-height: 0.8rem;
+	    font-size: 0.28rem;
+	}
+/* ui2结束 */
+/* ui3开始 */
+	.ui3{
+		margin-top: -0.6rem;
+	}
+	.ui3 .ui2con{
+		width: 100%;
+	    height: 1.3rem;
+	    margin: 0 auto;
+	    padding: 0.4rem 0;
+	    background: url(../img/uititle1.png) center center no-repeat;
+	    background-size: 100%;
+	    position: relative;
+	    z-index: 20;
+	}
+	.stu-lists{
+		width: 7.02rem;
+		height: auto;
+		overflow: hidden;
+		margin: 0 auto;
+		margin-top: 0.4rem;
+	}
+	.stu-lists .title-name{
+		width: 100%;
+		height: 0.6rem;
+	}
+	.title-name p{
+		height: 0.6rem;
+		border-radius:0.1rem 0.1rem 0 0; 
+		color: #fff;
+		float: left;
+		line-height: 0.6rem;
+		background: #40abfd;
+		font-size: 0.26rem;
+		text-align: center;
+		width: 1.3rem;
+	}
+	.title-name>p:nth-child(2){
+		background: #219eff;
+		width: 1.8rem;
+	}
+	.title-name>p:nth-child(3){
+		background: #118ded;
+		width: 3.92rem;
+	}
+	.big-box{
+		width: 100%;
+		border: 1px solid #1875ff;
+		box-sizing: border-box;
+		height: 3.5rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.big-box>div{
+		width: 100%;
+		height: 20%;
+		background: rgb(238, 238, 238);
+	}
+	.big-box>div:nth-child(2){
+		background: none;
+	}
+	.big-box>div:nth-child(4){
+		background: none;
+	}
+	.big-box div>p{
+		height: 0.7rem;
+		float: left;
+		line-height: 0.7rem;
+		font-size: 0.26rem;
+		text-align: center;
+		width: 1.3rem;
+		color: #666;
+	}
+	.big-box div>p:nth-child(2){
+		width: 1.8rem;
+		color: #feaf34;
+	}
+	.big-box div>p:nth-child(3){
+		width: 3.87rem;
+		color: #666;
+	}
+/* ui3结束 */
+/* ui4开始 */
+	.ui4{
+		background: url(../img/ui4back.png) center center repeat;
+	    background-size: 100%;
+	}
+	.ui4con{
+		background: url(../img/uititle3.png) center center no-repeat;
+		background-size: 100%;
+		width: 100%;
+	    height: 1.3rem;
+	    margin: 0 auto;
+	    padding: 0.4rem 0;
+	    position: relative;
+	    z-index: 20;
+	}
+	.ui .ui1con{
+		width: 7.02rem;
+	    height: 100%;
+	    margin: 0 auto;
+	}
+	.ui4con-1 div{
+		width: 100%;
+	    height: auto;
+	    overflow: hidden;
+	    margin-top: 0.3rem;
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.ui4con-1 div>div{
+		width: 100%;
+	    height: auto;
+	    overflow: hidden;
+	    background: #fff;
+	    margin-top: 0.4rem;
+	    border-top: 2px solid #f88c00;
+	}
+	.ui4con-1 div div span{
+		display: block;
+	    width: 100%;
+	    height: auto;
+	    color: #333;
+	    overflow: hidden;
+	    font-size: 0.3rem;
+	    padding: 0.1rem 0.2rem;
+	    margin-top: 0.2rem;
+	    line-height: 0.32rem;
+	}
+	.ui4con-1 div div p{
+		width: 100%;
+	    height: auto;
+	    padding: 0.2rem;
+	    overflow: hidden;
+	    margin-top: 0.1rem;
+	    border-top: 2px dashed #a0a0a0;
+	    font-size: 0.26rem;
+	    line-height: 0.36rem;
+	    text-align: justify;
+	    color: #666;
+	    letter-spacing: 1px;
+	}
+	.ui4con-1 div>div:nth-child(2){
+		border-top: 2px solid #32afff;
+	}
+	.ui4con-1 div>div:nth-child(3){
+		border-top: 2px solid #eb6877;
+	}
+	.ui4con-1 div>div:nth-child(4){
+		border-top: 2px solid #22ac38;
+	}
+	.ui4con-1 div>div:nth-child(5){
+		border-top: 2px solid #ea61d5;
+	}
+	.ui4con-1 div>div:nth-child(6){
+		border-top: 2px solid #13e5e3;
+	}
+/* ui4结束 */
+/* ui5开始 */
+	.ui5{
+	    margin-top: 0.5rem;
+	}
+	.ui .ui5con{
+	    margin-top: 0.5rem;
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.ui5con>div{
+		width: 100%;
+	    height: 2.63rem;
+	    overflow: hidden;
+	    margin-top: 0.1rem;
+	    display: flex;
+	}
+	.ui5con div>div{
+		width: 3.46rem;
+	    margin-right: 0.1rem;
+	    height: 2.63rem;
+	    overflow: hidden;
+	}
+	.ui5con div>div:nth-child(1){
+		background: url(../img/ui51.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui5con div>div:nth-child(2){
+		background: url(../img/ui52.png) center center no-repeat;
+	    background-size: 100%;
+	    margin-right: 0;
+	}
+	.ui5con>div:nth-child(2) div{
+		width: 7.02rem;
+	    background: url(../img/ui53.png) center center no-repeat;
+	    background-size: 100%;
+	    margin-right: 0;
+	}
+	.ui5con .con3>div:nth-child(1){
+		background: url(../img/ui54.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui5con .con3>div:nth-child(2){
+		background: url(../img/ui55.png) center center no-repeat;
+	    background-size: 100%;
+	}
+/* ui5结束 */
+/* ui6开始 */
+	.ui6 .ui3con{
+		margin-top: 0.5rem;
+	}
+	.ui6 .ui3con{
+		background: url(../img/uititle1.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui6con p{
+		width: 100%;
+	    height: 0.85rem;
+	    font-size: 0.28rem;
+	    color: #333;
+	    text-align: center;
+	    line-height: 0.85rem;
+	    font-weight: 600;
+	}
+	.box .content{
+		padding: 0 0.7rem 0;
+	}
+	.biaodan{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.table-form{
+		font-size: 0.12rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.table-form>div{
+		width: 100%;
+		height: 0.6rem;
+		margin-bottom: 0.3rem;
+	}
+	.table-form>div .first{
+	    width: 1.2rem;
+	    height: 0.6rem;
+	    display: block;
+	    color: #333;
+	    font-size: 0.3rem;
+	    line-height: 0.6rem;
+	    float: left;
+	    border: none;
+	    text-align: center;
+	}
+	.table-form div .input-text{
+		float: left;
+	    color: #333;
+	    font-size: 0.3rem;
+	    background: url(../img/input.png) center center no-repeat;
+	    background-size: 100%;
+	    border: none;
+	    outline: none;
+	    width: 4.0rem;
+	    height: 0.6rem;
+	    line-height: 0.6rem;
+	    text-indent: 1em;
+	    margin-left: 0.2rem;
+	}
+	.table-form div span{
+		color: red;
+	}
+	.table-form .btn{
+		display: block;
+	    width: 2.99rem;
+	    height: 0.8rem;
+	    margin: 0.4rem auto;
+	    background: url(../img/btn.png) center center no-repeat;
+	    background-size: 100%;
+	    color: #fff;
+	    text-align: center;
+	    line-height: 0.8rem;
+	    font-size: 0.28rem;
+	}
+/* ui6结束 */
+/* 版权开始 */
+	.copyright{
+		width: 100%;
+	    height: 1.2rem;
+	    font-size: 0.3rem;
+	    overflow: hidden;
+	}
+	.copyright p{
+		color: #666;
+	    font-size: 0.2rem;
+	    text-align: center;
+	    padding-top: 0.18rem;
+	}
+/* 版权结束 */
+/* 联系开始 */
+	.contact{
+		width: 100%;
+		height: 0.9rem;
+		box-sizing: border-box;
+		background-color: #fff;
+		margin-top: 0.2rem;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		box-shadow: 0 0 0.08rem rgba(0, 0, 0, 0.2);
+		z-index: 100;
+	}
+	.contact .contact-list{
+		width: 100%;
+		height: 100%;
+		background: #e7e7e7;
+	}
+	.contact-list a{
+		width: 30%;
+		height: 0.8rem;
+		float: left;
+	}
+	.contact .contact-list a div{
+		width: 100%;
+		height: 100%;
+		font-size: 0.24rem;
+		color: #000;
+		text-align: left;
+		line-height: 0.9rem;
+		background: #e7e7e7;
+	}
+	.contact-list a .part1 i{
+		background: url(../img/qq.png) 0 0 no-repeat;
+		background-size: 100%;
+		width: 0.32rem;
+		height: 0.32rem;
+		float: left;
+	    line-height: 0.9rem;
+	    margin-top: 0.28rem;
+	    margin-left: 0.27rem;
+	}
+	.contact-list a div span{
+		float: left;
+		font-size: 0.28rem;
+		margin-left: 0.1rem;
+	}
+	.contact-list .phone {
+	    width: 40%;
+	    height: 0.9rem;
+	    position: relative;
+	    z-index: 999;
+	    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+	    margin-top: -0.1rem;
+	}
+	.contact-list a div.part2{
+	    background-color: #ff8d12;
+	    border-radius: 0.08rem;
+	    color: #fff;
+	    text-align: center;
+	    box-shadow: 0px 0px 0.15rem #ff8d12;
+	    height: 100%;
+	    width: 100%;
+	    font-size: 0.24rem;
+	    line-height: 0.9rem;
+	}
+	.contact-list a div.part2 i{
+	    width: 0.36rem;
+	    height: 0.36rem;
+	    background: url(../img/tubiao.png) -1.6rem -4.78rem no-repeat;
+	    background-size: 2rem;
+	    display: inline-block;
+	    line-height: 0.9rem;
+	    margin-left: 0.7rem;
+	    float: left;
+	    margin-top: 0.28rem;
+	}
+/* 联系结束 */
+.kongbai{
+	width: 100%;
+	height: 0.9rem;
+}

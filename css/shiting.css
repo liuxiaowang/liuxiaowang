@@ -1,0 +1,369 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #f5f6fa;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+}
+/* 导航开始 */
+	.header{
+		width: 100%;
+		height: 0.89rem;
+		background-color: #007be3;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		display: flex;
+	}
+	.header>div{
+		width: 20%;
+		height: 100%;
+	}
+	.header div a{
+		text-align: center;
+		font-size: 0.32rem;
+		display: block;
+	    line-height: 0.89rem;
+	    color: #fff;
+	}
+/* 导航结束 */
+/* banner开始 */
+	.banner{
+		position: relative;
+	    width: 100%;
+	    height: 5rem;
+	    background: url(../img/banner1.jpg) center center no-repeat;
+	    background-size: 100%;
+	    overflow: hidden;
+	}
+/* banner结束 */
+.content{
+		width: 100%;
+		height: auto;
+		padding: 0.1rem 0.24rem 0;
+	}
+	.mulu{
+		width: 100%;
+		height: 0.66rem;
+		line-height: 0.66rem;
+	}
+	.mulu a{
+		color: #494747;
+		font-size: 0.22rem;
+		line-height: 0.7rem;
+		float: left;
+		margin: 0 0.14rem;
+		font-weight: bold;
+		display: block;
+	}
+	.mulu span{
+	    float: left;
+	    width: 0.16rem;
+	    height: 0.2rem;
+	    margin-top: 0.26rem;
+	    font-size: 0.22rem;
+	    text-align: center;
+	    color: #494747;
+	    background-size: 100%;
+	    background: url(../img/jiantou.png) center center no-repeat;
+	    overflow: hidden;
+	}
+	.tiao .neirong .kuai{
+		width: 100%;
+	}
+	.kuai .title{
+		width: 100%;
+		height: 1.6rem;
+	}
+	.kuai .title .h1{
+		width: 100%;
+	    text-align: center;
+	    height: 0.6rem;
+	    letter-spacing: 1px;
+	    font-size: 0.2rem;
+	    line-height: 0.2rem;
+	}
+	.h1 span{
+		font-size: 0.2rem;
+	    line-height: 0.2rem;
+	    vertical-align: middle;
+	}
+	.h1 .shu{
+		font-size: 0.26rem;
+	    line-height: 0.1rem;
+	    vertical-align: middle;
+	}
+	.title .outer{
+		padding:0.1rem 0;
+	}
+	.title .outer .heng{
+		width: 0.8rem;
+		height: 1px;
+		margin:0 auto;
+		background: #666;
+	}
+	.title .tab{
+		width: 100%;
+	    height: 0.25rem;
+	    line-height: 0.25rem;
+	    text-align: center;
+	    color: #666;
+	    font-size: 0.2rem;
+	    margin-top: 0.3rem;
+	}
+	.title .tab span{
+		font-size:0.2rem;
+	}
+	.content-2{
+		font-size: 0.26rem;
+		color: #666;
+	}
+	.content-2 .content1{
+		width: 100%;
+		height: auto;
+		margin-bottom: 0.3rem;
+	}
+	.content1 p{
+		width: 100%;
+	    height: auto;
+	    line-height: 0.4rem;
+	    text-align: left;
+	    margin-bottom: 0.2rem;
+	}
+	.table{
+		width: 100%;
+	    height: 1.78rem;
+	    border-top: 1px solid #666;
+	    border-bottom: 1px solid #666;
+	    margin-bottom: 0.25rem;
+	    position: relative;
+	    overflow: hidden;
+	}
+	.table .tableline{
+		position: absolute;
+	    width: 100%;
+	    height: 0.01rem;
+	    background: #666;
+	    left: 0;
+	    top: 0.5rem;
+	}
+	.table .td{
+		height: 100%;
+		float: left;
+	}
+	.td .top{
+		width: 100%;
+	    height: 0.5rem;
+	    line-height: 0.5rem;
+	    text-align: center;
+	}
+	.top span{
+		font-size: 0.26rem;
+    	color: #333;
+    	display: block;
+	}
+	.td .bottom{
+		width: 100%;
+	    overflow: hidden;
+	    height: 1.4rem;
+	    padding-top: 0.1rem;
+	    text-align: left;
+	}
+	.table .td .bottom p{
+	    line-height: 0.5rem;
+    	text-transform: uppercase;
+    	font-size: 0.26rem;
+	}
+	.content-2{
+		font-size: 0.26rem;
+		color: #666;
+	}
+	.content-2 .content-p{
+		width: 100%;
+		height: auto;
+		margin-bottom: 0.3rem;
+	}
+	.content-p p{
+		width: 100%;
+	    height: auto;
+	    line-height: 0.4rem;
+	    text-align: left;
+	    margin-bottom: 0.2rem;
+	}
+	.content-2 .content-img{
+		width: 5.4rem;
+	    height: 1.8rem;
+	    margin: 0 auto;
+	    margin-bottom: 0.25rem;
+	}
+	.content-2 .content-img .img{
+		width: 2.4rem;
+	    height: 1.8rem;
+	    margin: 0 0.11rem;
+	    float: left;
+	}
+	.content-2 .liu{
+	    width: 100%;
+	    height: 2.5rem;
+	    font-size: 0.26rem;
+	    color: #787878;
+	}
+	.content-2 .liu .inner{
+		width: 100%;
+		border-bottom: 1px solid #666;
+	}
+	.content-2 .liu .inner1{
+		height: 1.5rem;
+		border-top: 1px solid #666;
+	}
+	.num{
+		width: 0.9rem;
+	    height: 100%;
+	    margin-left: 0.4rem;
+	    line-height: 1.10rem;
+	    text-align: center;
+	    float: left;
+	    font-size: 0.5rem;
+	    font-weight: 200;
+	}
+	.buzou{
+		width: 2.5rem;
+	    height: 0.5rem;
+	    float: left;
+	    padding: 0.15rem 0;
+	    line-height: 0.25rem;
+	    margin-left: 0.2rem;
+	}
+	.buzou p{
+		margin-bottom: 0.06rem;
+	    line-height: 0.36rem;
+	}
+	.jiantou{
+		width: 0.25rem;
+	    height: 0.49rem;
+	    float: left;
+	    margin: 0.48rem 0;
+	    background: url(../img/szh-jiantou.png) no-repeat;
+	    background-size: 100%;
+	}
+	.tel{
+		width: auto;
+	    float: left;
+	    height: 100%;
+	    line-height: 1.10rem;
+	    margin-left: 0.25rem;
+	}
+	.tel span{
+		margin-left: 0.25rem;
+	}
+/* 版权开始 */
+	.copyright{
+		width: 100%;
+	    height: 1.2rem;
+	    font-size: 0.3rem;
+	    overflow: hidden;
+	}
+	.copyright p{
+		color: #666;
+	    font-size: 0.2rem;
+	    text-align: center;
+	    padding-top: 0.18rem;
+	}
+	
+/* 版权结束 */
+/* 联系开始 */
+	.contact{
+		width: 100%;
+		height: 0.9rem;
+		box-sizing: border-box;
+		background-color: #fff;
+		margin-top: 0.2rem;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		box-shadow: 0 0 0.08rem rgba(0, 0, 0, 0.2);
+		z-index: 100;
+	}
+	.contact .contact-list{
+		width: 100%;
+		height: 100%;
+		background: #e7e7e7;
+	}
+	.contact-list a{
+		width: 30%;
+		height: 0.8rem;
+		float: left;
+	}
+	.contact .contact-list a div{
+		width: 100%;
+		height: 100%;
+		font-size: 0.24rem;
+		color: #000;
+		text-align: left;
+		line-height: 0.9rem;
+		background: #e7e7e7;
+	}
+	.contact-list a .part1 i{
+		background: url(../img/qq.png) 0 0 no-repeat;
+		background-size: 100%;
+		width: 0.32rem;
+		height: 0.32rem;
+		float: left;
+	    line-height: 0.9rem;
+	    margin-top: 0.28rem;
+	    margin-left: 0.27rem;
+	}
+	.contact-list a div span{
+		float: left;
+		font-size: 0.28rem;
+		margin-left: 0.1rem;
+	}
+	.contact-list .phone {
+	    width: 40%;
+	    height: 0.9rem;
+	    position: relative;
+	    z-index: 999;
+	    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+	    margin-top: -0.1rem;
+	}
+	.contact-list a div.part2{
+	    background-color: #ff8d12;
+	    border-radius: 0.08rem;
+	    color: #fff;
+	    text-align: center;
+	    box-shadow: 0px 0px 0.15rem #ff8d12;
+	    height: 100%;
+	    width: 100%;
+	    font-size: 0.24rem;
+	    line-height: 0.9rem;
+	}
+	.contact-list a div.part2 i{
+	    width: 0.36rem;
+	    height: 0.36rem;
+	    background: url(../img/tubiao.png) -1.6rem -4.78rem no-repeat;
+	    background-size: 2rem;
+	    display: inline-block;
+	    line-height: 0.9rem;
+	    margin-left: 0.7rem;
+	    float: left;
+	    margin-top: 0.28rem;
+	}
+/* 联系结束 */
+.kong{
+	width: 100%;
+	height: 0.9rem;
+}

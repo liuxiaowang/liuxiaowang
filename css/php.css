@@ -1,0 +1,935 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-07 18:19:48
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-08 00:23:19
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #f5f6fa;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+}
+/* 导航开始 */
+	.header{
+		width: 100%;
+		height: 0.89rem;
+		background-color: #007be3;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		display: flex;
+	}
+	.header>div{
+		width: 20%;
+		height: 100%;
+	}
+	.header div a{
+		text-align: center;
+		font-size: 0.32rem;
+		display: block;
+	    line-height: 0.89rem;
+	    color: #fff;
+	}
+/* 导航结束 */
+/* banner开始 */
+	.banner{
+		position: relative;
+	    width: 100%;
+	    height: 5rem;
+	    background: url(../img/phpbanner.png) center center no-repeat;
+	    background-size: 100%;
+	    overflow: hidden;
+	}
+/* banner结束 */
+/* ui1开始 */
+	.ui{
+		width: 100%;
+		position: relative;
+	}
+	.ui1{
+		height: 5.8rem;
+		overflow: hidden;
+	}
+	.ui1H{
+	    width: 100%;
+	    height: 1.42rem;
+	    background: #fff;
+	    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+	    padding: 0.2rem 0;
+	    margin: 0 auto;
+	    position: relative;
+	}
+	.ui1H h2{
+		width: auto;
+	    height: 0.4rem;
+	    text-align: center;
+	    line-height: 0.4rem;
+	    font-size: 0.36rem;
+	    color: #333;
+	    margin-top: 0.4rem;
+	    position: absolute;
+	    left: 2.8rem;
+	    z-index: 10;
+	}
+	.ui1H h2 span{
+		font-weight: 400;
+	}
+	.uiH2{
+		width: 1.08rem;
+		height: 0.84rem;
+		position: absolute;
+		top: 0.3rem;
+		left: 2.2rem;
+		background: url(../img/titleL.png) center center no-repeat;
+		background-size: 100%;
+	}
+	.titlenum{
+	    width: 0.66rem;
+	    height: 0.6rem;
+	    position: absolute;
+	    left: 1.9rem;
+	    top: 0.5rem;
+	}
+	.titlenum1{
+	    background: url(../img/phptitle1.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.uiH2R {
+	    width: 1.14rem;
+	    height: 0.06rem;
+	    position: absolute;
+	    right: 2rem;
+	    bottom: 0.28rem;
+	    background: url(../img/titleR.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con{
+		width: 7.02rem;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.webdy {
+	    width: 100%;
+	    height: auto;
+	    overflow: hidden;
+	    padding: 0.4rem;
+	    padding-top: 0.44rem;
+	    border: 1px solid #1bbf99;
+	    border-top: 0;
+	}
+	.webdy p{
+		width: 100%;
+		height: auto;
+		margin-top: 0.16rem;
+		color: #333;
+		font-size: 0.24rem;
+		line-height: 0.4rem
+	}
+	.php1d1 {
+	    width: 6.9rem;
+	    height: 0.06rem;
+	    border: 1px solid #1bbf99;
+	    border-top: 0;
+	    margin: 0 auto;
+	}
+	.php1d2{
+		width: 6.8rem;
+	}
+/* ui1结束 */
+/* ui0开始 */
+	.ui0 h2 {
+	    left: 2.4rem;
+	}
+	.titlenum0{
+	    background: url(../img/phptitle2.png) center center no-repeat;
+	    background-size: 100%;
+	    left: 1.6rem;
+	}
+	.uiH20 {
+	    left: 1.9rem;
+	}
+	.uiH2R0 {
+	    right: 1.6rem;
+	}
+	.ui .ui1con .ui1con-2{
+		width: 6.8rem;
+	    height: 5.4rem;
+	    margin: 0.2rem auto;
+	}
+	.ui .ui1con .ui1con-2 .ui1conflex{
+		width: 100%;
+	    height: 100%;
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.ui1con-2 .ui1conflex>div{
+		width: 2.1rem;
+	    height: 2.5rem;
+	    margin-right: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(3){
+		margin-right: 0;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(6){
+		margin-right: 0;
+		margin-top: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(4){
+		margin-top: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(5){
+		margin-top: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex div .ui1title1{
+		width: 2.1rem;
+	    height: 1.1rem;
+	    background: url(../img/1.png) center center no-repeat;
+	    background-size: 100%;
+	    color: #fff;
+	    font-size: 0.28rem;
+	    line-height: 1.1rem;
+	    font-weight: 600;
+	    padding-left: 0.8rem;
+	}
+	.ui1con-2 .ui1conflex div .ui1title2{
+	    background: url(../img/2.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title3{
+	    background: url(../img/3.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title4{
+	    background: url(../img/4.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title5{
+	    background: url(../img/5.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title6{
+	    background: url(../img/6.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div p{
+		width: 2.1rem;
+	    height: 1.4rem;
+	    color: #333;
+	    font-size: 0.26rem;
+	    line-height: 0.32rem;
+	    text-align: center;
+	    padding-top: 0.2rem;
+	    border: 1px dashed #f2a111;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(2) p{
+		border: 1px dashed #2f90da;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(3) p{
+		border: 1px dashed #f87844;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(4) p{
+		border: 1px dashed #1bbf99;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(5) p{
+		border: 1px dashed #f8ce68;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(6) p{
+		border: 1px dashed #c16bbb;
+	}
+/* ui0结束 */
+/* ui2开始 */
+	.ui2 {
+	
+	    height: 11rem;
+	}
+	.ui2 h2 {
+	    left: 3.1rem;
+	}
+	.uiH22 {
+	    left: 2.3rem;
+	}
+	.titlenum2 {
+	    left: 2.0rem;
+	    background: url(../img/phptitle3.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.uiH2R2 {
+	    right: 2.0rem;
+	}
+	.ui2 .ui2box{
+		width: 100%;
+		height: 9rem;
+		background: #1b1d32;
+		padding-top: 0.4rem;
+		margin-top: -0.4rem;
+	}
+	.ui2 .ui2box .ui2bt{
+		width: 3.7rem;
+	    height: 0.84rem;
+	    margin: 0 auto;
+	    padding: 0.2rem;
+	    text-align: center;
+	    line-height: 0.4rem;
+	    font-size: 0.3rem;
+	    border-bottom: 1px dashed #fff;
+	    position: relative;
+	    color: #00c298;
+	    margin-top: 0.6rem;
+	}
+	.ui2 .ui2box .ui2bt .ui2tiao{
+		width: 100%;
+	    height: 1px;
+	    background: #fff;
+	    position: absolute;
+	    left: 0;
+	    bottom: 0.1rem;
+	}
+	.ui2 .ui2box .ui2bt .ui2zhe{
+		width: 100%;
+	    height: 0.82rem;
+	    position: absolute;
+	    left: 0;
+	    bottom: 0;
+	    background: #1b1d32;
+	}
+	.ui2 .ui2box .ui2bfb{
+		width: 7.02rem;
+	    height: 4.3rem;
+	    margin: 0 auto;
+	    margin-top: 0.7rem;
+	    display: flex;
+	    justify-content: space-between;
+	}
+	.bpbbfb {
+	    width: 3.42rem;
+	    height: 4.42rem;
+	    border: 1px solid #fff;
+	}
+	.ui2 .ui2box p{
+		width: 100%;
+		height: auto;
+		text-align: center;
+		line-height: 0.4rem;
+	    font-size: 0.26rem;
+	    color: #fff;
+	    margin-top: 0.2rem;
+	    overflow: hidden;
+	}
+	.bpbbfb p span {
+	    color: #e47749;
+	}
+	.bpbbfb img {
+	    width: 3.40rem;
+	    height: 2.2rem;
+	}
+	.phpjs {
+	    width: 3.40rem;
+	    height: 1.42rem;
+	    border-top: 1px solid #fff;
+	    font-size: 0.24rem;
+	    text-align: center;
+	    line-height: 0.3rem;
+	    color: #fff;
+	    padding: 0.2rem 0.1rem;
+	    letter-spacing: -0.8px;
+	}
+	.btn{
+		display: block;
+		width: 2.99rem;
+		height: 0.8rem;
+		margin: 0.4rem auto;
+		background: url(../img/btn.png) center center no-repeat;
+		background-size: 100%;
+		color: #fff;
+	    text-align: center;
+	    line-height: 0.8rem;
+	    font-size: 0.28rem;
+	}
+/* ui2结束 */
+/* ui3开始 */
+	.ui3{
+		margin-top: -1.2rem;
+	}
+	.ui3 h2 {
+	    left: 3.1rem;
+	}
+	.uiH23 {
+	    left: 2.4rem;
+	}
+	.titlenum3 {
+	    left: 2.1rem;
+	    background: url(../img/phptitle4.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.uiH2R3 {
+	    right: 2.0rem;
+	}
+	.stu-lists{
+		width: 7.02rem;
+		height: auto;
+		overflow: hidden;
+		margin: 0 auto;
+		margin-top: 0.4rem;
+	}
+	.stu-lists .title-name{
+		width: 100%;
+		height: 0.6rem;
+	}
+	.title-name p{
+		height: 0.6rem;
+		border-radius:0.1rem 0.1rem 0 0; 
+		color: #fff;
+		float: left;
+		line-height: 0.6rem;
+		background: #40abfd;
+		font-size: 0.26rem;
+		text-align: center;
+		width: 1.3rem;
+	}
+	.title-name>p:nth-child(2){
+		background: #219eff;
+		width: 1.8rem;
+	}
+	.title-name>p:nth-child(3){
+		background: #118ded;
+		width: 3.92rem;
+	}
+	.big-box{
+		width: 100%;
+		border: 1px solid #1875ff;
+		box-sizing: border-box;
+		height: 3.5rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.big-box>div{
+		width: 100%;
+		height: 20%;
+		background: rgb(238, 238, 238);
+	}
+	.big-box>div:nth-child(2){
+		background: none;
+	}
+	.big-box>div:nth-child(4){
+		background: none;
+	}
+	.big-box div>p{
+		height: 0.7rem;
+		float: left;
+		line-height: 0.7rem;
+		font-size: 0.26rem;
+		text-align: center;
+		width: 1.3rem;
+		color: #666;
+	}
+	.big-box div>p:nth-child(2){
+		width: 1.8rem;
+		color: #feaf34;
+	}
+	.big-box div>p:nth-child(3){
+		width: 3.87rem;
+		color: #666;
+	}
+/* ui3结束 */
+/* ui4开始 */
+	.ui4{
+		background: #1b1d32;
+	    padding-bottom: 0.5rem;
+	    height: 12rem;
+	}
+	.uiH24{
+	    left: 2.1rem;
+	}
+	.titlenum4{
+	    left: 1.8rem;
+	    background: url(../img/phptitle5.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.uiH2R4{
+	    right: 1.5rem;
+	}
+	.ui4con{
+		position: relative;
+		margin-top: 0.6rem;
+		height: 10rem;
+	}
+	.ui4con .web4ul1{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	.ui4con li{
+		width: 100%;
+	    height: 1.52rem;
+	    overflow: hidden;
+	    padding: 0.1rem;
+	    padding-bottom: 0;
+	    padding-top: 0;
+	}
+	.php4l{
+	    width: 0.54rem;
+	    height: 100%;
+	    float: left;
+	    overflow: hidden;
+	}
+	.phpxuhao{
+	    width: 0.54rem;
+	    height: 0.54rem;
+	    border: 2px solid #ffd300;
+	    text-align: center;
+	    line-height: 0.5rem;
+	    font-size: 0.3rem;
+	    color: #fff;
+	}
+	.phpline{
+	    width: 0.02rem;
+	    height: 0.98rem;
+	    background: #ffd300;
+	    margin: 0 auto;
+	}
+	.php4r{
+	    width: 5.98rem;
+	    height: 1.52rem;
+	    float: left;
+	    margin-left: 0.3rem;
+	}
+	.php4rcon{
+	    width: 100%;
+	    height: 100%;
+	}
+	.ui41 span{
+	    font-size: 0.28rem;
+	    color: #ffd300;
+	    display: block;
+	}
+	.web4ul1 li p{
+	    width: 100%;
+	    height: auto;
+	    overflow: hidden;
+	    margin-top: 0.1rem;
+	    font-size: 0.24rem;
+	    color: #fff;
+	    line-height: 0.34rem;
+	    padding: 0.1rem 0;
+	    text-align: justify;
+	}
+	.ui41 p {
+	    border-top: 1px dashed #ffd300;
+	}
+	.ui4con .ui42 {
+	    height: 1.8rem;
+	}
+	.phpxuhao2 {
+	    border: 2px solid #dd534e;
+	}
+	.ui42 .php4line {
+	    height: 1.26rem;
+	}
+	.ui42 span {
+	    font-size: 0.28rem;
+	    color: #dd534e;
+	    display: block;
+	}
+	.ui42 p {
+	    border-top: 1px dashed #dd534e;
+	}
+	.ui4con .ui43 {
+	    height: 1.8rem;
+	}
+	.phpxuhao3 {
+	    border: 2px solid #87bf7f;
+	}
+	.ui43 .php4line {
+	    height: 1.26rem;
+	}
+	.ui43 span {
+	    font-size: 0.28rem;
+	    color: #87bf7f;
+	    display: block;
+	}
+	.ui43 p {
+	    border-top: 1px dashed #87bf7f;
+	}
+	.phpxuhao4 {
+	    border: 2px solid #1fa4db;
+	}
+	.ui44 span {
+	    font-size: 0.28rem;
+	    color: #1fa4db;
+	    display: block;
+	}
+	.ui44 p {
+	    border-top: 1px dashed #1fa4db;
+	}
+	.ui4con .ui45 {
+	    height: 1.2rem;
+	}
+	.phpxuhao5 {
+	    border: 2px solid #f6ce64;
+	}
+	.ui45 .php4line {
+	    height: 0.68rem;
+	}
+	.ui45 span {
+	    font-size: 0.28rem;
+	    color: #f6ce64;
+	    display: block;
+	}
+	.ui45 p {
+	    border-top: 1px dashed #f6ce64;
+	}
+	.ui4con .ui46 {
+	    height: 2rem;
+	}
+	.ui4con .ui46 {
+	    height: 2rem;
+	}
+	.ui46 span {
+	    font-size: 0.28rem;
+	    color: #a86baa;
+	    display: block;
+	}
+	.ui46 p {
+	    border-top: 1px dashed #a86baa;
+	}
+/* ui4结束 */
+/* ui5开始 */
+	.ui5{
+	    height: auto;
+	    overflow: hidden;
+	}
+	.uiH25{
+	    left: 2rem;
+	}
+	.titlenum5{
+	    left: 1.7rem;
+	    background: url(../img/phptitle6.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.uiH2R5{
+	    right: 1.6rem;
+	}
+	.ui5con{
+		height: auto;
+		overflow: hidden;
+	}
+	.ui5con .box5{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		margin-top: 0.8rem;
+		margin-bottom: 0.8rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.box5>div{
+		width: 100%;
+		height: 1.01rem;
+		overflow: hidden;
+	}
+	.box5>div div{
+		color: #333;
+		font-size: 0.24rem;
+		line-height: 1.14rem;
+		padding-left: 0.88rem;
+	}
+	.phpzw1 {
+	    width: 2.43rem;
+	    height: 100%;
+	    background: url(../img/phpzw1.png) center center no-repeat;
+	    background-size: 100%;
+	    margin-left: -6rem;
+	    float: left;
+	}
+	.phpzw2 {
+	    width: 2.71rem;
+	    height: 100%;
+	    background: url(../img/phpzw2.png) center center no-repeat;
+	    background-size: 100%;
+	    margin-right: -4rem;
+	    float: right;
+	}
+	.phpzw3 {
+	    width: 2.54rem;
+	    height: 100%;
+	    background: url(../img/phpzw3.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.phpzw4 {
+	    width: 2.6rem;
+	    height: 100%;
+	    background: url(../img/phpzw4.png) center center no-repeat;
+	    background-size: 100%;
+	    float: left;
+	}
+	.phpzw5 {
+	    width: 2.47rem;
+	    height: 100%;
+	    background: url(../img/phpzw5.png) center center no-repeat;
+	    background-size: 100%;
+	    float: right;
+	}
+	.phpzw6 {
+	    width: 2.99rem;
+	    height: 100%;
+	    background: url(../img/phpzw6.png) center center no-repeat;
+	    background-size: 100%;
+	    float: right;
+	}
+/* ui5结束 */
+/* ui6开始 */
+	.ui6{
+	    background: #1b1d32;
+	    height: 7.32rem;
+	}
+	.uiH26 {
+	    left: 2rem;
+	}
+	.titlenum6 {
+	    left: 1.7rem;
+	    background: url(../img/phptitle7.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.uiH2R6 {
+	    right: 1.6rem;
+	}
+	.ui6con {
+	    margin-top: 1rem;
+	    height: auto;
+	    overflow: hidden;
+	}
+	.php6bot {
+	    width: 1.87rem;
+	    height: 3.22rem;
+	    float: left;
+	    background: url(../img/phpren.png) center center no-repeat;
+	    background-size: 100%;
+	    position: relative;
+	    z-index: 20;
+	}
+	.web5bot {
+	    width: 5.8rem;
+	    height: 3rem;
+	    border: 1px solid #ffd300;
+	    border-left: none;
+	    float: left;
+	    margin-top: 0.16rem;
+	}
+	.web5bot ul {
+	    width: 5.8rem;
+	    height: 3.1rem;
+	    overflow: hidden;
+	}
+	.web5bot li {
+	    width: 94%;
+	    height: 0.6rem;
+	    border-bottom: 1px dashed #ffd300;
+	    overflow: hidden;
+	}
+	.web5bot a {
+	    display: block;
+	    width: 100%;
+	    height: 100%;
+	    color: #fff;
+	    padding-left: 1.5rem;
+	    font-size: 0.26rem;
+	    line-height: 0.7rem;
+	}
+/* ui6结束 */
+/* ui7开始 */
+	.ui7 h2 {
+	    left: 2rem;
+	}
+	.uiH27 {
+	    left: 1.3rem;
+	}
+	.titlenum7 {
+	    left: 1rem;
+	    background: url(../img/phptitle8.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.uiH2R7 {
+	    right: 1rem;
+	}
+	.ui7con p{
+		width: 100%;
+	    height: 0.85rem;
+	    font-size: 0.28rem;
+	    color: #333;
+	    text-align: center;
+	    line-height: 0.85rem;
+	    font-weight: 600;
+	    margin-top: 0.3rem;
+    	margin-bottom: 0.2rem;
+	}
+	.ui7 .box6 .content{
+		padding: 0 0.7rem 0;
+	}
+	.ui7 .biaodan{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.ui7 .table-form{
+		font-size: 0.12rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.ui7 .table-form>div{
+		width: 100%;
+		height: 0.6rem;
+		margin-bottom: 0.3rem;
+	}
+	.ui7 .table-form>div .first{
+	    width: 1.2rem;
+	    height: 0.6rem;
+	    display: block;
+	    color: #333;
+	    font-size: 0.3rem;
+	    line-height: 0.6rem;
+	    float: left;
+	    border: none;
+	    text-align: center;
+	}
+	.ui7 .table-form div .input-text{
+		float: left;
+	    color: #333;
+	    font-size: 0.3rem;
+	    background: url(../img/input.png) center center no-repeat;
+	    background-size: 100%;
+	    border: none;
+	    outline: none;
+	    width: 4.0rem;
+	    height: 0.6rem;
+	    line-height: 0.6rem;
+	    text-indent: 1em;
+	    margin-left: 0.2rem;
+	}
+	.ui7 .table-form div span{
+		color: red;
+	}
+	.ui7 .table-form .btn{
+		display: block;
+	    width: 2.99rem;
+	    height: 0.8rem;
+	    margin: 0.4rem auto;
+	    background: url(../img/btn.png) center center no-repeat;
+	    background-size: 100%;
+	    color: #fff;
+	    text-align: center;
+	    line-height: 0.8rem;
+	    font-size: 0.28rem;
+	}
+/* ui7结束 */
+/* 版权开始 */
+	.copyright{
+		width: 100%;
+	    height: 1.2rem;
+	    font-size: 0.3rem;
+	    overflow: hidden;
+	}
+	.copyright p{
+		color: #666;
+	    font-size: 0.2rem;
+	    text-align: center;
+	    padding-top: 0.18rem;
+	}
+/* 版权结束 */
+/* 联系开始 */
+	.contact{
+		width: 100%;
+		height: 0.9rem;
+		box-sizing: border-box;
+		background-color: #fff;
+		margin-top: 0.2rem;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		box-shadow: 0 0 0.08rem rgba(0, 0, 0, 0.2);
+		z-index: 100;
+	}
+	.contact .contact-list{
+		width: 100%;
+		height: 100%;
+		background: #e7e7e7;
+	}
+	.contact-list a{
+		width: 30%;
+		height: 0.8rem;
+		float: left;
+	}
+	.contact .contact-list a div{
+		width: 100%;
+		height: 100%;
+		font-size: 0.24rem;
+		color: #000;
+		text-align: left;
+		line-height: 0.9rem;
+		background: #e7e7e7;
+	}
+	.contact-list a .part1 i{
+		background: url(../img/qq.png) 0 0 no-repeat;
+		background-size: 100%;
+		width: 0.32rem;
+		height: 0.32rem;
+		float: left;
+	    line-height: 0.9rem;
+	    margin-top: 0.28rem;
+	    margin-left: 0.27rem;
+	}
+	.contact-list a div span{
+		float: left;
+		font-size: 0.28rem;
+		margin-left: 0.1rem;
+	}
+	.contact-list .phone {
+	    width: 40%;
+	    height: 0.9rem;
+	    position: relative;
+	    z-index: 999;
+	    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+	    margin-top: -0.1rem;
+	}
+	.contact-list a div.part2{
+	    background-color: #ff8d12;
+	    border-radius: 0.08rem;
+	    color: #fff;
+	    text-align: center;
+	    box-shadow: 0px 0px 0.15rem #ff8d12;
+	    height: 100%;
+	    width: 100%;
+	    font-size: 0.24rem;
+	    line-height: 0.9rem;
+	}
+	.contact-list a div.part2 i{
+	    width: 0.36rem;
+	    height: 0.36rem;
+	    background: url(../img/tubiao.png) -1.6rem -4.78rem no-repeat;
+	    background-size: 2rem;
+	    display: inline-block;
+	    line-height: 0.9rem;
+	    margin-left: 0.7rem;
+	    float: left;
+	    margin-top: 0.28rem;
+	}
+/* 联系结束 */
+	.kong{
+		width: 100%;
+		height: 0.9rem;
+	}

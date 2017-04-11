@@ -1,0 +1,341 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-05 20:05:26
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-07 11:39:53
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* banner开始 */
+	.header{
+		width: 100%;
+		height: 0.445rem;
+		background-color: #007be3;
+		position: fixed;
+		top: 0;
+		z-index: 100;
+	}
+	.header-con{
+		width: 100%;
+		height: 0.41rem;
+		background: #47afff;
+	}
+	.header .header-con .lxb-cb-input{
+		position: absolute;
+		top: 0.05rem;
+	    left: 2%;
+	    width: 70%;
+	    height: 0.31rem;
+	    padding: 0 0.05rem;
+	    border: 0.01rem solid #ccc;
+	    background-color: #fff;
+	    border-radius: 0.03rem;
+	    font-size: 0.12rem;
+	}
+	.header-con .lxb-cb-input-clear{
+		background: url(../img/icon1.png) 0 0 no-repeat;
+		background-size: 0.75rem;
+		width: 0.22rem;
+		height: 0.22rem;
+		position: absolute;
+		top: 30%;
+		right: 25%;
+
+	}
+	.header-con .lxb-cb-input-btn{
+		top: 0.06rem;
+		left: 78%;
+		right: 3%;
+		height: 0.29rem;
+		line-height: 0.29rem;
+		background: rgb(3, 21, 155);
+		border-radius: 5px;
+		font-size: 0.12rem;
+		text-align: center;
+		vertical-align: middle;
+		color: #fff;
+		position: absolute;
+	}
+/* banner结束 */
+.banner{
+	width: 100%;
+	height: 1.845rem;
+}
+.banner img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	margin-top: 0.445rem;
+}
+/* 图标开始 */
+	.content{
+		width: 100%;
+		overflow: hidden;
+		box-sizing: border-box;
+		padding: 0.14rem 0.1rem 0;
+		display: flex;
+		flex-wrap: wrap;
+		background: #F5F6FA;
+
+	}
+	.content>div{
+		width: 0.775rem;
+		height: 0.98rem;
+		margin-right: 0.15rem;
+		margin-bottom: 0.16rem;
+		font-size: 0.12rem;
+		color: #000;
+		text-align: center;
+	}
+	.content>div:nth-child(4),.content>div:nth-child(8){
+		margin-right: 0;
+	}
+	.content div a .child{
+		width: 0.65rem;
+		height: 0.655rem;
+		padding: 0.125rem 0 0 0.125rem;
+		margin-bottom: 0.08rem;
+		font-size: 0.24rem;
+		color: #000;
+		background: #fff;
+		border-radius: 0.1rem;
+	}
+	.content div a .child .tu-1{
+		background: #fff url(../img/tubiao.png) 0 0 no-repeat;
+	    background-size: 1rem;
+	    width: 0.525rem;
+	    height: 0.525rem;
+	}
+	.content div a .child .tu-2{
+		background: #fff url(../img/tubiao.png) -0.49rem 0 no-repeat;
+	    background-size: 1rem;
+	    width: 0.525rem;
+	    height: 0.525rem;
+	}
+	.content div a .child .tu-3{
+		background: #fff url(../img/tubiao.png) 0.075rem -0.55rem no-repeat;
+	    background-size: 1rem;
+	    width: 0.525rem;
+	    height: 0.525rem;
+	}
+	.content div a .child .tu-4{
+		background: #fff url(../img/tubiao.png) no-repeat;
+	    background-size: 1rem;
+	    width: 0.525rem;
+	    height: 0.525rem;
+	}
+	.content div a .child .tu-5{
+		background: #fff url(../img/tubiao.png) -0.49rem -0.55rem no-repeat;
+	    background-size: 1rem;
+	    width: 0.525rem;
+	    height: 0.525rem;
+	}
+	.content div a .child .tu-6{
+		background: #fff url(../img/tubiao.png) 0rem -1.65rem no-repeat;
+	    background-size: 1rem;
+	    width: 0.525rem;
+	    height: 0.525rem;
+	}
+	.content div a .child .tu-7{
+		background: #fff url(../img/tubiao.png) 0.05rem -1.1rem no-repeat;
+	    background-size: 1rem;
+	    width: 0.525rem;
+	    height: 0.525rem;
+	}
+	.content div a .child .tu-8{
+		background: #fff url(../img/tubiao.png) -0.49rem -1.1rem no-repeat;
+	    background-size: 1rem;
+	    width: 0.525rem;
+	    height: 0.525rem;
+	}
+/* 图标结束 */
+/* 服务开始 */
+	.server{
+		width: 100%;
+		overflow: hidden;
+		background: #fff;
+	}
+	.server .title{
+		width: 100%;
+		height: 0.315rem;
+		border-bottom: 0.01rem solid #e8e8e8;
+		font-size: 0.12rem;
+		text-align: center;
+		color: #1378ba;
+		line-height: 0.315rem;
+	}
+	.server .col-1{
+		width: 100%;
+		height: 1.09rem;
+		display: flex;
+		border-bottom: 0.01rem solid #e8e8e8;
+	}
+	.server .col-1>div{
+		width: 50%;
+		height: 100%;
+		border-right: 0.01rem solid #e8e8e8;
+		padding: 0.19rem 0 0.24rem 0.08rem;
+		box-sizing: border-box;
+	}
+	.server .col-1 div a .left{
+		width: 0.9rem;
+		height: 100%;
+		float: left;
+	}
+	.server .col-1 div a .left h2{
+		font-size: 0.12rem;
+		color: #000;
+	}
+	.server .col-1 div a .left h3{
+		font-size: 0.09rem;
+		color: #999;
+	}
+	.server .col-1 div a .right-1{
+		width: 0.75rem;
+		height: 100%;
+		float: right;
+		background: #fff url(../img/tubiao.png) 0 -2.2rem no-repeat;
+		background-size: 1rem;
+		padding-right: 0.1rem;
+		box-sizing: border-box;
+	}
+	.server .col-1 div a .right-2{
+		width: 0.75rem;
+		height: 100%;
+		float: right;
+		background: #fff url(../img/tubiao.png) 0 -2.95rem no-repeat;
+		background-size: 1rem;
+		padding-right: 0.1rem;
+
+	}
+	.server .col-2{
+		width: 100%;
+		height: 0.69rem;
+		border-bottom: 0.01rem solid #e8e8e8;
+		display: flex;
+	}
+	.server .col-2>div{
+		width: 33.3333%;
+		height: 100%;
+		border-right: 0.01rem solid #e8e8e8;
+		padding: 0.2rem 0 0.19rem 0.1rem;
+		box-sizing: border-box;
+	}
+	.server .col-2 div a .left-1{
+		width: 0.3rem;
+		height: 100%;
+		float: left;
+		background: url(../img/mianfei.png) center center no-repeat;
+		background-size: cover;
+	}
+	.server .col-2 div a .left-2{
+		width: 0.3rem;
+		height: 100%;
+		float: left;
+		background: url(../img/youyike.png) center center no-repeat;
+		background-size: cover;
+	}
+	.server .col-2 div a .left-3{
+		width: 0.3rem;
+		height: 100%;
+		float: left;
+		background: url(../img/guanyu.png) center center no-repeat;
+		background-size: cover;
+	}
+	.server .col-2 div a .right h2{
+		font-size: 0.12rem;
+		color: #000;
+	}
+	.server .col-2 div a .right h3{
+		font-size: 0.09rem;
+		color: #999;
+	}
+/* 服务结束 */
+/* 联系开始 */
+	.contact{
+		width: 100%;
+		height: 0.45rem;
+		box-sizing: border-box;
+		background-color: #fff;
+		margin-top: 0.1rem;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		box-shadow: 0 0 0.04rem rgba(0, 0, 0, 0.1);
+		z-index: 100;
+	}
+	.contact .contact-list{
+		width: 100%;
+		height: 100%;
+		background: #e7e7e7;
+	}
+	.contact-list a{
+		width: 30%;
+		height: 0.4rem;
+		float: left;
+	}
+	.contact .contact-list a div{
+		width: 100%;
+		height: 100%;
+		font-size: 0.12rem;
+		color: #000;
+		text-align: left;
+		line-height: 0.45rem;
+		background: #e7e7e7;
+	}
+	.contact-list a .part1 i{
+		background: url(../img/qq.png) 0 0 no-repeat;
+		background-size: 100%;
+		width: 0.16rem;
+		height: 0.16rem;
+		float: left;
+	    line-height: 0.45rem;
+	    margin-top: 0.14rem;
+	    margin-left: 0.135rem;
+	}
+	.contact-list a div span{
+		float: left;
+		font-size: 0.14rem;
+		margin-left: 0.05rem;
+	}
+	.contact-list .phone {
+	    width: 40%;
+	    height: 0.45rem;
+	    position: relative;
+	    z-index: 999;
+	    box-shadow: 0 0 0.04rem rgba(255,126,0,0.1);
+	    margin-top: -0.05rem;
+	}
+	.contact-list a div.part2{
+	    background-color: #ff8d12;
+	    border-radius: 0.04rem;
+	    color: #fff;
+	    text-align: center;
+	    box-shadow: 0px 0px 0.075rem #ff8d12;
+	    height: 100%;
+	    width: 100%;
+	    font-size: 0.12rem;
+	    line-height: 0.45rem;
+	}
+	.contact-list a div.part2 i{
+	    width: 0.18rem;
+	    height: 0.18rem;
+	    background: url(../img/tubiao.png) -0.8rem -2.39rem no-repeat;
+	    background-size: 1rem;
+	    display: inline-block;
+	    line-height: 0.45rem;
+	    margin-left: 0.35rem;
+	    float: left;
+	    margin-top: 0.14rem;
+	}
+/* 联系结束 */
+.kong{
+	width: 100%;
+	height: 0.45rem;
+}

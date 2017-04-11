@@ -1,0 +1,827 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-07 09:16:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-07 18:18:15
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #f5f6fa;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+}
+/* 导航开始 */
+	.header{
+		width: 100%;
+		height: 0.89rem;
+		background-color: #007be3;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		display: flex;
+	}
+	.header>div{
+		width: 20%;
+		height: 100%;
+		/* text-align: center;
+		line-height: 100%;
+		font-size: 0.12rem; */
+	}
+	.header div a{
+		text-align: center;
+		font-size: 0.32rem;
+		display: block;
+	    line-height: 0.89rem;
+	    color: #fff;
+	}
+/* 导航结束 */
+/* banner开始 */
+	.banner{
+		position: relative;
+	    width: 100%;
+	    height: 5rem;
+	    background: url(../img/webbanner.png) center center no-repeat;
+	    background-size: 100%;
+	    overflow: hidden;
+	}
+	/* .banner img{
+		width: 100%;
+		position: absolute;
+		top: 0.89rem;
+	    height: 4.14rem;
+	} */
+/* banner结束 */
+/* ui1开始 */
+	.ui{
+	    overflow: hidden;
+	    width: 100%;
+	    position: relative;
+	}
+	.ui1H{
+	    width: 100%;
+	    height: 1.42rem;
+	    background: #fff;
+	    box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+	    padding: 0.2rem 0;
+	    margin: 0 auto;
+	    margin-bottom: 0.3rem;
+	}
+	.ui1H h2{
+		width: 100%;
+	    height: 0.4rem;
+	    text-align: center;
+	    line-height: 0.4rem;
+	    font-size: 0.36rem;
+	    color: #333;
+	}
+	.ui1H h2 span{
+		font-weight: 400;
+	}
+	.ui1H .xian{
+		width: 2.7rem;
+	    height: 0.3rem;
+	    margin: 0 auto;
+	    position: relative;
+	    background: url(../img/ui1lines.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1H>h2:last-child{
+		font-size: 0.3rem;
+    	line-height: 0.3rem;
+	}
+	.ui1con{
+	    width: 7.02rem;
+	    height: 100%;
+	    margin: 0 auto;
+	}
+	.ui1con .webdy{
+	    width: 100%;
+	    height: auto;
+	    overflow: hidden;
+	    background: url(../img/web1back.png) center center no-repeat;
+	    background-size: 100%;
+	    padding: 0.4rem;
+	}
+	.webdy h3{
+	    width: 100%;
+	    height: auto;
+	    text-transform: uppercase;
+	    color: #00c298;
+	    font-size: 0.5rem;
+	    line-height: 0.6rem;
+	}
+	.webdy h3 span{
+	    color: #00c298;
+	    font-size: 0.34rem;
+	}
+	.webdy h3 .webci{
+	    color: #ff815c;
+	}
+	.webdy p{
+	    color: #333;
+	    letter-spacing: 1px;
+	    font-size: 0.24rem;
+	    line-height: 0.32rem;
+	}
+	.ui1con .webzz{
+	    background: url(../img/web1backs.png) center center no-repeat;
+	    background-size: 100%;
+	}
+/* ui1结束 */
+/* ui0开始 */
+	.ui{
+		width: 100%;
+		overflow: hidden;
+	    position: relative;
+	}
+	.ui .ui1con{
+		width: 7.02rem;
+	    height: 100%;
+	    margin: 0 auto;
+	}
+	.ui .ui1con .ui1con-2{
+		width: 6.8rem;
+	    height: 5.4rem;
+	    margin: 0.2rem auto;
+	}
+	.ui .ui1con .ui1con-2 .ui1conflex{
+		width: 100%;
+	    height: 100%;
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	.ui1con-2 .ui1conflex>div{
+		width: 2.1rem;
+	    height: 2.5rem;
+	    margin-right: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(3){
+		margin-right: 0;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(6){
+		margin-right: 0;
+		margin-top: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(4){
+		margin-top: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(5){
+		margin-top: 0.2rem;
+	}
+	.ui1con-2 .ui1conflex div .ui1title1{
+		width: 2.1rem;
+	    height: 1.1rem;
+	    background: url(../img/1.png) center center no-repeat;
+	    background-size: 100%;
+	    color: #fff;
+	    font-size: 0.28rem;
+	    line-height: 1.1rem;
+	    font-weight: 600;
+	    padding-left: 0.8rem;
+	}
+	.ui1con-2 .ui1conflex div .ui1title2{
+	    background: url(../img/2.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title3{
+	    background: url(../img/3.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title4{
+	    background: url(../img/4.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title5{
+	    background: url(../img/5.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div .ui1title6{
+	    background: url(../img/6.png) center center no-repeat;
+	    background-size: 100%;
+	}
+	.ui1con-2 .ui1conflex div p{
+		width: 2.1rem;
+	    height: 1.4rem;
+	    color: #333;
+	    font-size: 0.26rem;
+	    line-height: 0.32rem;
+	    text-align: center;
+	    padding-top: 0.2rem;
+	    border: 1px dashed #f2a111;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(2) p{
+		border: 1px dashed #2f90da;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(3) p{
+		border: 1px dashed #f87844;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(4) p{
+		border: 1px dashed #1bbf99;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(5) p{
+		border: 1px dashed #f8ce68;
+	}
+	.ui1con-2 .ui1conflex>div:nth-child(6) p{
+		border: 1px dashed #c16bbb;
+	}
+/* ui0结束 */
+/* ui2开始 */
+	.ui2 .ui2box{
+		width: 100%;
+		height: 9rem;
+		background: #1b1d32;
+		padding-top: 0.4rem;
+		margin-top: -0.4rem;
+	}
+	.ui2 .ui2box .ui2bt{
+		width: 3.7rem;
+	    height: 0.8rem;
+	    margin: 0 auto;
+	    padding: 0.2rem;
+	    text-align: center;
+	    line-height: 0.4rem;
+	    font-size: 0.3rem;
+	    border-bottom: 1px dashed #fff;
+	    position: relative;
+	    color: #00c298;
+	}
+	.ui2 .ui2box .ui2bt .ui2tiao{
+		width: 100%;
+	    height: 1px;
+	    background: #fff;
+	    position: absolute;
+	    left: 0;
+	    bottom: 0.1rem;
+	}
+	.ui2 .ui2box .ui2bt .ui2zhe{
+		width: 100%;
+	    height: 0.82rem;
+	    position: absolute;
+	    left: 0;
+	    bottom: 0;
+	    background: #1b1d32;
+	}
+	.ui2 .ui2box .ui2bfb{
+		background: url(../img/webbfb.png) center center no-repeat;
+		background-size: 100%;
+		width: 7.02rem;
+	    height: 4.3rem;
+	    margin: 0 auto;
+	    margin-top: 0.7rem;
+	}
+	.ui2 .ui2box p{
+		width: 100%;
+		height: auto;
+		text-align: center;
+		line-height: 0.4rem;
+	    font-size: 0.26rem;
+	    color: #fff;
+	    margin-top: 0.2rem;
+	    overflow: hidden;
+	}
+	.btn{
+		display: block;
+		width: 2.99rem;
+		height: 0.8rem;
+		margin: 0.4rem auto;
+		background: url(../img/btn.png) center center no-repeat;
+		background-size: 100%;
+		color: #fff;
+	    text-align: center;
+	    line-height: 0.8rem;
+	    font-size: 0.28rem;
+	}
+/* ui2结束 */
+/* ui3开始 */
+	.stu-lists{
+		width: 7.02rem;
+		height: auto;
+		overflow: hidden;
+		margin: 0 auto;
+		margin-top: 0.4rem;
+	}
+	.stu-lists .title-name{
+		width: 100%;
+		height: 0.6rem;
+	}
+	.title-name p{
+		height: 0.6rem;
+		border-radius:0.1rem 0.1rem 0 0; 
+		color: #fff;
+		float: left;
+		line-height: 0.6rem;
+		background: #40abfd;
+		font-size: 0.26rem;
+		text-align: center;
+		width: 1.3rem;
+	}
+	.title-name>p:nth-child(2){
+		background: #219eff;
+		width: 1.8rem;
+	}
+	.title-name>p:nth-child(3){
+		background: #118ded;
+		width: 3.92rem;
+	}
+	.big-box{
+		width: 100%;
+		border: 1px solid #1875ff;
+		box-sizing: border-box;
+		height: 3.5rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.big-box>div{
+		width: 100%;
+		height: 20%;
+		background: rgb(238, 238, 238);
+	}
+	.big-box>div:nth-child(2){
+		background: none;
+	}
+	.big-box>div:nth-child(4){
+		background: none;
+	}
+	.big-box div>p{
+		height: 0.7rem;
+		float: left;
+		line-height: 0.7rem;
+		font-size: 0.26rem;
+		text-align: center;
+		width: 1.3rem;
+		color: #666;
+	}
+	.big-box div>p:nth-child(2){
+		width: 1.8rem;
+		color: #feaf34;
+	}
+	.big-box div>p:nth-child(3){
+		width: 3.87rem;
+		color: #666;
+	}
+/* ui3结束 */
+/* ui4开始 */
+	.ui4{
+		background: url(../img/webkcback.png) center center repeat;
+		height: 14.4rem;
+		padding-bottom: 0.5rem;
+		position: relative;
+	}
+	.ui4 .webline{
+		height: 100%;
+		position: absolute;
+		left: 3.7rem;
+		top: 1.42rem;
+		background: #00a8ff;
+		width: 0.04rem;
+	}
+	.ui4 .ui4con{
+		margin-top: 0.6rem;
+		position: relative;
+	}
+	.ui4con .web4b{
+		width: 3.06rem;
+		height: 0.6rem;
+		background: #00a8ff;
+		position: absolute;
+		bottom: 2.1rem;
+	}
+	.web4t{
+		top: -0.1rem;
+	}
+	.web4b p{
+		width: 2.96rem;
+		height: 0.5rem;
+		border: 1px dashed #fff;
+		margin: 0.05rem;
+		color: #fff;
+		line-height: 0.5rem;
+		text-align: center;
+		font-size: 0.3rem;
+	}
+	.web4dian{
+		width: 0.24rem;
+		height: 0.24rem;
+		border-radius: 50%;
+		border: 2px solid #00a8ff;
+		background: #fff;
+		position: absolute;
+		left: 3.36rem;
+	}
+	.web4dian1{
+		top: 0.7rem;
+	}
+	.web4dian2{
+		top: 1.5rem;
+	}
+	.web4dian3{
+		top: 1.8rem;
+	}
+	.web4dian4{
+		top: 4rem;
+	}
+	.web4dian5{
+		top: 4.3rem;
+	}
+	.web4dian6{
+		top: 6.84rem;
+	}
+	.web4dian7{
+		top: 7.2rem;
+	}
+	.web4dian8{
+		top: 10.4rem;
+	}
+	.ul{
+		width: 3.35rem;
+		height: auto;
+		float: left;
+		margin-top: 1.1rem;
+	}
+	.ul>div{
+		width: 3.35rem;
+	    height: auto;
+	    overflow: hidden;
+	    margin-top: 0.1rem;
+	    margin-left: 0;
+	    padding: 0.1rem;
+	}
+	.left div div{
+		width: 100%;
+	    height: 0.58rem;
+	    overflow: hidden;
+	    background: url(../img/web4back.png) center center no-repeat;
+	    background-size: 100%;
+	    text-align: right;
+	    font-size: 0.3rem;
+	    line-height: 0.58rem;
+	    color: #fff;
+	    font-weight: 600;
+	    padding-right: 0.2rem;
+	    /* float: left; */
+	}
+	.ul div p{
+		width: 3.05rem;
+	    height: auto;
+	    overflow: hidden;
+	    border: 1px solid #00a8ff;
+	    font-size: 0.24rem;
+	    color: #333;
+	    line-height: 0.34rem;
+	    padding: 0.16rem;
+	    text-align: justify;
+	    margin-top: -0.02rem;
+	    float: left;
+	}
+	.right{
+		float: right;
+		margin-top: 1.4rem;
+	}
+	.right div{
+		margin-left: 0;
+	}
+	.right div div{
+		width: 100%;
+	    height: 0.58rem;
+	    overflow: hidden;
+	    font-size: 0.3rem;
+	    line-height: 0.58rem;
+	    color: #fff;
+	    font-weight: 600;
+	    padding-left: 0.2rem;
+	    text-align: left;
+	    background: url(../img/web4back2.png) center center no-repeat;
+	    background-size: 100%;
+	    float: right;
+	}
+	.right div p{
+		float: right;
+	}
+/* ui4结束 */
+/* ui5开始 */
+	.ui5{
+		background: #1b1d32;
+		height: auto;
+	}
+	.web5top{
+		width: 100%;
+		height: 4.32rem;
+		position: relative;
+		overflow: hidden;
+	}
+	.web5top .item{
+		width: 1.7rem;
+		height: 0.5rem;
+		line-height: 0.5rem;
+		border-radius: 0.4rem;
+		text-align: center;
+		background: #00C298;
+		font-size: 0.26rem;
+		color: #fff;
+		position: absolute;
+	}
+	.web5top .item1{
+		left: 1.2rem;
+		top: 0.4rem;
+	}
+	.web5top .item2{
+		width: 2.7rem;
+		background: #F2A111;
+		bottom: 2.4rem;
+		left: 0rem;
+	}
+	.web5top .item3{
+		width: 2.72rem;
+		background: #F87844;
+		top: 0.5rem;
+		right: 0.4rem;
+	}
+	.web5top .item4{
+		width: 2.7rem;
+		background: #00BAFF;
+		bottom: 2.4rem;
+		right: 0rem;
+	}
+	.web5top .web5zhuan{
+		width: 1.74rem;
+		height: 1.74rem;
+		border-radius: 50%;
+		border: 2px solid #00c298;
+		position: absolute;
+		left: 2.54rem;
+		bottom: 0.6rem;
+		box-sizing: content-box;
+		animation: zhuan 2s 0s infinite linear;
+	}
+	@keyframes zhuan{
+		0%{
+			-webkit-transform: rotate(0deg);
+		}  
+		100%{
+			-webkit-transform: rotate(360deg);
+		}
+	}
+	.web5zhuan .web5zl{
+		width: 1.54rem;
+		height: 1.54rem;
+		border-radius: 50%;
+		border: 2px dashed #00c298;
+		margin: 0.1rem;
+	}
+	.web5top .xiaoren{
+		width: 1.24rem;
+		height: 1.94rem;
+		position: absolute;
+		left: 2.78rem;
+		bottom: 1.2rem;
+	}
+	.xiaoren img{
+		width: 100%;
+		height: 100%;
+	}
+	.web5top .web5line{
+		width: 0.04rem;
+		height: 0.7rem;
+		position: absolute;
+		left: 3.44rem;
+		top: 3.7rem;
+		background: #00c298;
+	}
+	.web5bot{
+		width: 100%;
+		height: 4.5rem;
+		border: 1px solid #00c298;
+	}
+	.web5bot .web5btit{
+		width: 2.96rem;
+		height: 0.64rem;
+		background: #00c298;
+		margin: 0 auto;
+		margin-top: -0.32rem; 
+	}
+	.web5bot .web5btit .web5tli{
+		width: 2.86rem;
+	    height: 0.5rem;
+	    margin: 0.05rem;
+	    color: #1b1d32;
+	    font-size: 0.26rem;
+	    text-align: center;
+	    line-height: 0.5rem;
+	    border: 1px dashed #fff;
+	}
+	.box{
+		width: 6.4rem;
+		height: 3.5rem;
+		margin: 0.3rem auto;
+	}
+	.box>div{
+		width: 100%;
+		height: 0.7rem;
+		border-bottom: 1px dashed #00c298;
+	}
+	.box a{
+		width: 100%;
+		height: 100%;
+		display: block;
+		color: #fff;
+		line-height: 0.7rem;
+		font-size: 0.3rem;
+	}
+	.web{
+		width: 100%;
+	    height: 2.4rem;
+	    overflow: hidden;
+	}
+	.web .floor2{
+		width: 1.73rem;
+	    height: 1.73rem;
+	    margin: 0.3rem auto;
+	    margin-bottom: -0.3rem;
+	}
+	.web a{
+		display: block
+	}
+	.web .floor2 img{
+		width: 100%;
+	}
+/* ui5结束 */
+/* ui6开始 */
+	.ui6con p{
+		width: 100%;
+	    height: 0.85rem;
+	    font-size: 0.28rem;
+	    color: #333;
+	    text-align: center;
+	    line-height: 0.85rem;
+	    font-weight: 600;
+	}
+	.ui6 .box6 .content{
+		padding: 0 0.7rem 0;
+	}
+	.ui6 .biaodan{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.ui6 .table-form{
+		font-size: 0.12rem;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.ui6 .table-form>div{
+		width: 100%;
+		height: 0.6rem;
+		margin-bottom: 0.3rem;
+	}
+	.ui6 .table-form>div .first{
+	    width: 1.2rem;
+	    height: 0.6rem;
+	    display: block;
+	    color: #333;
+	    font-size: 0.3rem;
+	    line-height: 0.6rem;
+	    float: left;
+	    border: none;
+	    text-align: center;
+	}
+	.ui6 .table-form div .input-text{
+		float: left;
+	    color: #333;
+	    font-size: 0.3rem;
+	    background: url(../img/input.png) center center no-repeat;
+	    background-size: 100%;
+	    border: none;
+	    outline: none;
+	    width: 4.0rem;
+	    height: 0.6rem;
+	    line-height: 0.6rem;
+	    text-indent: 1em;
+	    margin-left: 0.2rem;
+	}
+	.ui6 .table-form div span{
+		color: red;
+	}
+	.ui6 .table-form .btn{
+		display: block;
+	    width: 2.99rem;
+	    height: 0.8rem;
+	    margin: 0.4rem auto;
+	    background: url(../img/btn.png) center center no-repeat;
+	    background-size: 100%;
+	    color: #fff;
+	    text-align: center;
+	    line-height: 0.8rem;
+	    font-size: 0.28rem;
+	}
+/* ui6结束 */
+/* 版权开始 */
+	.copyright{
+		width: 100%;
+	    height: 1.2rem;
+	    font-size: 0.3rem;
+	    overflow: hidden;
+	}
+	.copyright p{
+		color: #666;
+	    font-size: 0.2rem;
+	    text-align: center;
+	    padding-top: 0.18rem;
+	}
+/* 版权结束 */
+/* 联系开始 */
+	.contact{
+		width: 100%;
+		height: 0.9rem;
+		box-sizing: border-box;
+		background-color: #fff;
+		margin-top: 0.2rem;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		box-shadow: 0 0 0.08rem rgba(0, 0, 0, 0.2);
+		z-index: 100;
+	}
+	.contact .contact-list{
+		width: 100%;
+		height: 100%;
+		background: #e7e7e7;
+	}
+	.contact-list a{
+		width: 30%;
+		height: 0.8rem;
+		float: left;
+	}
+	.contact .contact-list a div{
+		width: 100%;
+		height: 100%;
+		font-size: 0.24rem;
+		color: #000;
+		text-align: left;
+		line-height: 0.9rem;
+		background: #e7e7e7;
+	}
+	.contact-list a .part1 i{
+		background: url(../img/qq.png) 0 0 no-repeat;
+		background-size: 100%;
+		width: 0.32rem;
+		height: 0.32rem;
+		float: left;
+	    line-height: 0.9rem;
+	    margin-top: 0.28rem;
+	    margin-left: 0.27rem;
+	}
+	.contact-list a div span{
+		float: left;
+		font-size: 0.28rem;
+		margin-left: 0.1rem;
+	}
+	.contact-list .phone {
+	    width: 40%;
+	    height: 0.9rem;
+	    position: relative;
+	    z-index: 999;
+	    box-shadow: 0 0 0.08rem rgba(255,126,0,0.1);
+	    margin-top: -0.1rem;
+	}
+	.contact-list a div.part2{
+	    background-color: #ff8d12;
+	    border-radius: 0.08rem;
+	    color: #fff;
+	    text-align: center;
+	    box-shadow: 0px 0px 0.15rem #ff8d12;
+	    height: 100%;
+	    width: 100%;
+	    font-size: 0.24rem;
+	    line-height: 0.9rem;
+	}
+	.contact-list a div.part2 i{
+	    width: 0.36rem;
+	    height: 0.36rem;
+	    background: url(../img/tubiao.png) -1.6rem -4.78rem no-repeat;
+	    background-size: 2rem;
+	    display: inline-block;
+	    line-height: 0.9rem;
+	    margin-left: 0.7rem;
+	    float: left;
+	    margin-top: 0.28rem;
+	}
+/* 联系结束 */
+	.kong{
+		width: 100%;
+		height: 0.9rem;
+	}
